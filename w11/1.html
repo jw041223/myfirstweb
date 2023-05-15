@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+    <h1>프로그램</h1>
+    <h2>드라마 제목</h2>
+
+   <ul>
+<script>
+    drama = ["더 글로리","택배기사","낭만닥터 김사부1","낭만닥터 김사부2","낭만닥터 김사부3","이태원 클라스","인간수업","일타 스캔들","카지노","재벌집 막내아들"];
+    img = ["더 글로리.jpeg","택배기사.jpeg","낭만닥터 김사부1.jpeg","낭만닥터 김사부2.jpeg","낭만닥터 김사부3.jpeg","이태원 클라스.jpeg","인간수업.jpeg","일타스캔들.jpeg","카지노.jpeg","재벌집 막내아들.jpeg"]
+    var i = 0;
+    while(i < drama.length){
+        document.write('<li><a href="https://ko.wikipedia.org/wiki/' + drama[i] + '">'+ drama[i] + '</a><li>') ;
+        document.write('<img src="' + img[i] + '" wide="100" height="100">')
+        i = i + 1;
+    }
+  
+</script>  
+</ul>
+
+</body>
+</html>
